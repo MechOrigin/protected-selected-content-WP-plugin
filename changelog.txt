@@ -1,0 +1,23 @@
+Plugin Name: Password Protect Selected Content
+Author: Aaron Edwards
+Edits: Mathew Lefebvre
+
+Change Log:
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+1.2.0 - 1/21/2018
+----------------------------------------------------------------------
+- Added classnames to all password elements so that it will be easier to edit in css.
+- Updated a few fields so that it will work for http://mortarandclay.com mo' betta.
+
+1.1 - 7/18/2014
+----------------------------------------------------------------------
+- Fix various PHP notices
+- Update dashboard notification
+
+1.0.0 - 3/04/2011
+----------------------------------------------------------------------
+Initial Release.
+
+
