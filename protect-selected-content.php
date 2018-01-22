@@ -78,7 +78,7 @@ class PartialPostPassword {
 		  $label = 'pwbox-' . rand();
 			return '<form action="' . admin_url('admin-ajax.php') . '" method="post"><input type="hidden" name="action" value="psc-set" />
 			<p class="pscMessage">' . __("This content is password protected. To view it please enter your password below:", 'psc') . '</p>
-			<p class="pscFields"><label for="' . $label . '">' . __("", 'psc') . ' <input class="pscInput" name="post_password" id="' . $label . '" type="password" size="20" placeholder="Password" /></label> <input class="pscSubmit" type="submit" name="Submit" value="' . esc_attr__("Go!", 'psc') . '" /></p>
+			<p class="pscFields"><label for="' . $label . '">' . __("", 'psc') . ' <input class="pscInput" name="post_password" id="' . $label . '" type="password" size="20" placeholder="Password" /></label> <input class="pscSubmit" type="submit" name="Submit" value="' . esc_attr__("Enter!", 'psc') . '" /></p>
 			</form>
 			';
 		}
